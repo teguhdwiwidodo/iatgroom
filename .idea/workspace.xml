@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="191c00b8-162f-4ffa-837f-25bf3fce125c" name="Default" comment="" />
+    <list default="true" id="191c00b8-162f-4ffa-837f-25bf3fce125c" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/assets/bootstrap/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/bootstrap/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/bootstrap/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/excel/Data Kota.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/excel/Data Kota.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plugins/select2/select2.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/select2/select2.css" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,17 +68,17 @@
       <file leaf-file-name="_header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/_layout/_header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+            <state relative-caret-position="187">
+              <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdminLTE.min.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/dist/css/AdminLTE.min.css">
+      <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/bootstrap/css/bootstrap.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="6" column="5046" selection-start-line="6" selection-start-column="5046" selection-end-line="6" selection-end-column="5046" />
+              <caret line="1380" column="2" lean-forward="true" selection-start-line="1380" selection-start-column="2" selection-end-line="1380" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -121,6 +127,9 @@
       <find>header</find>
       <find>toggle</find>
       <find>logo</find>
+      <find>#367fa9</find>
+      <find>modal</find>
+      <find>#286090</find>
     </findStrings>
     <replaceStrings>
       <replace>#e54d42</replace>
@@ -140,6 +149,8 @@
         <option value="$PROJECT_DIR$/application/controllers/Evidence.php" />
         <option value="$PROJECT_DIR$/assets/dist/css/skins/skin-blue-light.min.css" />
         <option value="$PROJECT_DIR$/assets/dist/css/AdminLTE.css" />
+        <option value="$PROJECT_DIR$/assets/dist/css/AdminLTE.min.css" />
+        <option value="$PROJECT_DIR$/assets/bootstrap/css/bootstrap.css" />
       </list>
     </option>
   </component>
@@ -290,12 +301,12 @@
       <option name="presentableId" value="Default" />
       <updated>1526953809045</updated>
       <workItem from="1526953812733" duration="8090000" />
-      <workItem from="1527049452597" duration="3211000" />
+      <workItem from="1527049452597" duration="4640000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11301000" />
+    <option name="totallyTimeSpent" value="12730000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -389,6 +400,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="354">
           <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+          <folding>
+            <element signature="e#17#38#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -441,6 +455,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="39" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="39" />
+          <folding>
+            <element signature="e#17#38#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -455,6 +472,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+          <folding>
+            <element signature="e#17#38#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -581,17 +601,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/_layout/_header.php">
+    <entry file="file://$PROJECT_DIR$/assets/dist/css/AdminLTE.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        <state relative-caret-position="17">
+          <caret line="6" column="5336" selection-start-line="6" selection-start-column="5336" selection-end-line="6" selection-end-column="5336" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/dist/css/AdminLTE.min.css">
+    <entry file="file://$PROJECT_DIR$/application/views/_layout/_header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/bootstrap/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="6" column="5046" selection-start-line="6" selection-start-column="5046" selection-end-line="6" selection-end-column="5046" />
+          <caret line="1380" column="2" lean-forward="true" selection-start-line="1380" selection-start-column="2" selection-end-line="1380" selection-end-column="2" />
         </state>
       </provider>
     </entry>
