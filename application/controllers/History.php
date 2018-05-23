@@ -8,7 +8,10 @@ class History extends AUTH_Controller
     }
     public function index(){
         $data['userdata'] 	= $this->userdata;
-        $this->load->view('history/history',$data);
+        $data['page'] = "history";
+		$data['judul'] = "History Room";
+		$data['deskripsi'] = " ";
+        $this->template->views('history/history',$data);
     }
     
 }
