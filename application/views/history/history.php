@@ -1,18 +1,23 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: DaniAgungPrastiyo
- * Date: 22/5/2018
- * Time: 9:33 AM
- */
+<div class="msg" style="display:none;">
+    <?php echo @$this->session->flashdata('msg'); ?>
+</div>
 
-?>
-<!DOCTYPE html>
-<html>
-<head>
-	<title>History</title>
-</head>
-<body>
-	ini tempat History
-</body>
-</html>
+<div class="box box-danger">
+    <div class="box-header">
+    </div>
+    <!-- /.box-header -->
+    <div class="box-body">
+        <table id="list-data" class="table table-bordered table-striped">
+            <thead>
+            <tr>
+                <th>Nama Rapat</th>
+                <th>Nama Ruangan</th>
+                <th>Ketua Tim</th>
+                <th>Status</th>
+                <th style="text-align: center;">Aksi</th>
+            </tr>
+            </thead>
+            </tbody>
+        </table>
+    </div>
+</div>
