@@ -34,7 +34,7 @@
             } ?>>
                 <a href="<?php echo base_url('Booking'); ?>">
                     <i class="fa fa-home"></i>
-                    <span>Pemesanan Ruangan</span>
+                    <span>Reservasi</span>
                 </a>
             </li>
 
@@ -42,7 +42,7 @@
                 echo 'class="active"';
             } ?>>
                 <a href="<?php echo base_url('Evidence'); ?>">
-                    <i class="fa fa-home"></i>
+                    <i class="fa fa-upload"></i>
                     <span>Evidence</span>
                 </a>
             </li>
@@ -51,7 +51,7 @@
                 echo 'class="active"';
             } ?>>
                 <a href="<?php echo base_url('History'); ?>">
-                    <i class="fa fa-home"></i>
+                    <i class="fa fa-history"></i>
                     <span>History Pemesanan</span>
                 </a>
             </li>

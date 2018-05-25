@@ -11,6 +11,7 @@ class Evidence extends AUTH_Controller
         $data['page'] = "evidence";
 		$data['judul'] = "Upload Evidence";
 		$data['deskripsi'] = " ";
+        $data['modal_evidence'] = show_my_modal('modals/modal_evidence', 'tambah-evidence', $data);
         $this->template->views('evidence/evidence', $data);
     }
     

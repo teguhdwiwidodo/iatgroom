@@ -1,18 +1,9 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: DaniAgungPrastiyo
- * Date: 22/5/2018
- * Time: 9:26 AM
- */
+<div class="msg" style="display:none;">
+    <?php echo @$this->session->flashdata('msg'); ?>
+</div>
 
-?>
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Booking</title>
-</head>
-<body>
-	ini tempat Pemesanan Ruangan
-</body>
-</html>
+<div class="box box-danger">
+    <div class="box-header">
+        <div class="col-md-12" style="padding: 0;">
+</div>
+

@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="191c00b8-162f-4ffa-837f-25bf3fce125c" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/application/views/modals/modal_evidence.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/Evidence.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/Evidence.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/_layout/_sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/_layout/_sidebar.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/views/evidence/evidence.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/evidence/evidence.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/history/history.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/history/history.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/ruangan/booking.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/ruangan/booking.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,49 +21,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="skin-blue-light.min.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/dist/css/skins/skin-blue-light.min.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="1536" selection-start-column="1536" selection-end-column="1536" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="database.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/config/database.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1258">
-              <caret line="74" selection-start-line="74" selection-end-line="74" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_header.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/_layout/_header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/bootstrap/css/bootstrap.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="1388" column="1" lean-forward="true" selection-start-line="1388" selection-start-column="1" selection-end-line="1388" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="evidence.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/evidence/evidence.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="34" lean-forward="true" selection-end-line="24" selection-end-column="6" />
+            <state relative-caret-position="132">
+              <caret line="28" column="102" selection-start-line="28" selection-start-column="90" selection-end-line="28" selection-end-column="102" />
               <folding>
-                <element signature="e#1121#1148#0#HTML" expanded="true" />
+                <element signature="e#1178#1185#1#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -71,45 +38,78 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
               <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-              <folding>
-                <element signature="n#style#0;n#th#3;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#1;n#!!top" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_sidebar.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_sidebar.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/_layout/_sidebar.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="20" column="50" lean-forward="true" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+            <state relative-caret-position="1292">
+              <caret line="76" column="44" lean-forward="true" selection-start-line="76" selection-start-column="44" selection-end-line="76" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="modal_detail_kota.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/modals/modal_detail_kota.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="21" selection-end-line="34" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="modal_tambah_pegawai.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/modals/modal_tambah_pegawai.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="40" lean-forward="true" selection-end-line="81" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="modal_evidence.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/modals/modal_evidence.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="home.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/pegawai/home.php">
+        <entry file="file://$PROJECT_DIR$/application/views/posisi/home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+            <state relative-caret-position="404">
+              <caret line="42" column="2" selection-end-line="42" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdminLTE.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/dist/css/AdminLTE.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6596">
-              <caret line="388" column="20" selection-start-line="388" selection-start-column="16" selection-end-line="388" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_css.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/_layout/_css.php">
+      <file leaf-file-name="booking.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/views/ruangan/booking.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="85" selection-start-line="6" selection-start-column="85" selection-end-line="6" selection-end-column="85" />
+              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Pegawai.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/Pegawai.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="302">
+              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="110" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Evidence.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/Evidence.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="59" lean-forward="true" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -136,8 +136,10 @@
       <find>toggle</find>
       <find>logo</find>
       <find>#367fa9</find>
-      <find>modal</find>
       <find>#286090</find>
+      <find>id</find>
+      <find>modal</find>
+      <find>tambah</find>
     </findStrings>
     <replaceStrings>
       <replace>#e54d42</replace>
@@ -152,14 +154,16 @@
         <option value="$PROJECT_DIR$/application/config/database.php" />
         <option value="$PROJECT_DIR$/application/views/_layout/_header.php" />
         <option value="$PROJECT_DIR$/application/views/_layout/_footer.php" />
-        <option value="$PROJECT_DIR$/application/views/_layout/_sidebar.php" />
-        <option value="$PROJECT_DIR$/application/controllers/Evidence.php" />
         <option value="$PROJECT_DIR$/assets/dist/css/skins/skin-blue-light.min.css" />
         <option value="$PROJECT_DIR$/assets/dist/css/AdminLTE.css" />
         <option value="$PROJECT_DIR$/assets/dist/css/AdminLTE.min.css" />
         <option value="$PROJECT_DIR$/assets/bootstrap/css/bootstrap.css" />
-        <option value="$PROJECT_DIR$/application/views/evidence/evidence.php" />
         <option value="$PROJECT_DIR$/application/views/history/history.php" />
+        <option value="$PROJECT_DIR$/application/views/_layout/_sidebar.php" />
+        <option value="$PROJECT_DIR$/application/controllers/Evidence.php" />
+        <option value="$PROJECT_DIR$/application/views/modals/modal_evidence.php" />
+        <option value="$PROJECT_DIR$/application/views/evidence/evidence.php" />
+        <option value="$PROJECT_DIR$/application/views/ruangan/booking.php" />
       </list>
     </option>
   </component>
@@ -184,7 +188,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -201,6 +204,12 @@
               <item name="iatgroom" type="b2602c69:ProjectViewProjectNode" />
               <item name="iatgroom" type="462c0819:PsiDirectoryNode" />
               <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iatgroom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iatgroom" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -208,63 +217,34 @@
               <item name="iatgroom" type="462c0819:PsiDirectoryNode" />
               <item name="application" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="_layout" type="462c0819:PsiDirectoryNode" />
+              <item name="evidence" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="iatgroom" type="b2602c69:ProjectViewProjectNode" />
               <item name="iatgroom" type="462c0819:PsiDirectoryNode" />
               <item name="application" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="errors" type="462c0819:PsiDirectoryNode" />
+              <item name="modals" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="iatgroom" type="b2602c69:ProjectViewProjectNode" />
               <item name="iatgroom" type="462c0819:PsiDirectoryNode" />
               <item name="application" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="history" type="462c0819:PsiDirectoryNode" />
+              <item name="posisi" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="iatgroom" type="b2602c69:ProjectViewProjectNode" />
               <item name="iatgroom" type="462c0819:PsiDirectoryNode" />
               <item name="application" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="pegawai" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="iatgroom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iatgroom" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="iatgroom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iatgroom" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="iatgroom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iatgroom" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="iatgroom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iatgroom" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="eksternal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="iatgroom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iatgroom" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="fonts" type="462c0819:PsiDirectoryNode" />
+              <item name="ruangan" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -297,12 +277,13 @@
       <updated>1526953809045</updated>
       <workItem from="1526953812733" duration="8090000" />
       <workItem from="1527049452597" duration="4964000" />
-      <workItem from="1527123830607" duration="2904000" />
+      <workItem from="1527123830607" duration="3533000" />
+      <workItem from="1527221918846" duration="1380000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15958000" />
+    <option name="totallyTimeSpent" value="17967000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -336,27 +317,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/controllers/Kota.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2108">
-          <caret line="124" column="8" selection-start-line="124" selection-start-column="8" selection-end-line="124" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/Pegawai.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/Evidence.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/dist/css/skins/skin-blue-light.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -452,13 +412,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="315" lean-forward="true" selection-start-line="315" selection-end-line="315" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/posisi/home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -585,20 +538,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/Pegawai.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/Evidence.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/_layout/_css.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -643,25 +582,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/bootstrap/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="1388" column="1" lean-forward="true" selection-start-line="1388" selection-start-column="1" selection-end-line="1388" selection-end-column="1" />
+        <state relative-caret-position="23596">
+          <caret line="1388" column="1" selection-start-line="1388" selection-start-column="1" selection-end-line="1388" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/pegawai/home.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/evidence/evidence.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="34" lean-forward="true" selection-end-line="24" selection-end-column="6" />
-          <folding>
-            <element signature="e#1121#1148#0#HTML" expanded="true" />
-          </folding>
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -669,16 +598,72 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-          <folding>
-            <element signature="n#style#0;n#th#3;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#1;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/_layout/_sidebar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="20" column="50" lean-forward="true" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+        <state relative-caret-position="1292">
+          <caret line="76" column="44" lean-forward="true" selection-start-line="76" selection-start-column="44" selection-end-line="76" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/modals/modal_detail_kota.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="21" selection-end-line="34" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/modals/modal_tambah_pegawai.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="40" lean-forward="true" selection-end-line="81" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/Pegawai.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/Evidence.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="59" lean-forward="true" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/evidence/evidence.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="28" column="102" selection-start-line="28" selection-start-column="90" selection-end-line="28" selection-end-column="102" />
+          <folding>
+            <element signature="e#1178#1185#1#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/modals/modal_evidence.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/posisi/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="42" column="2" selection-end-line="42" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/ruangan/booking.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
         </state>
       </provider>
     </entry>
