@@ -25,6 +25,8 @@
 </div>
 
 
+
+
 <!-- Modal -->
 <div class="modal fade" id="tambah-evidence" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog">
@@ -39,43 +41,49 @@
                       <span class="input-group-addon" id="sizing-addon2">
                         <i class="glyphicon glyphicon-user"></i>
                       </span>
-                            <input type="text" class="form-control" placeholder="Nama" name="nama" aria-describedby="sizing-addon2">
+                            <input type="text" class="form-control" placeholder="Nama Rapat" name="nama-rapat" aria-describedby="sizing-addon2">
                         </div>
                         <div class="input-group form-group">
                       <span class="input-group-addon" id="sizing-addon2">
                         <i class="glyphicon glyphicon-user"></i>
                       </span>
-                            <input type="text" class="form-control" placeholder="Nama" name="nama" aria-describedby="sizing-addon2" disabled>
+                            <input type="text" class="form-control" placeholder="Nama Ruangan" name="nama-ruangan" aria-describedby="sizing-addon2" disabled>
                         </div>
                         <div class="input-group form-group">
                       <span class="input-group-addon" id="sizing-addon2">
                         <i class="glyphicon glyphicon-user"></i>
                       </span>
-                            <input type="text" class="form-control" placeholder="Nama" name="nama" aria-describedby="sizing-addon2" disabled>
+                            <input type="text" class="form-control" placeholder="Ketua Tim" name="ketua-tim" aria-describedby="sizing-addon2" disabled>
                         </div>
                         <div class="input-group form-group">
                       <span class="input-group-addon" id="sizing-addon2">
                         <i class="glyphicon glyphicon-user"></i>
                       </span>
-                            <input type="text" class="form-control" placeholder="Nama" name="nama" aria-describedby="sizing-addon2" disabled>
+                            <input type="text" class="form-control" placeholder="Anggota Tim" name="anggota-tim" aria-describedby="sizing-addon2" disabled>
                         </div>
                         <div class="input-group form-group">
                       <span class="input-group-addon" id="sizing-addon2">
                         <i class="glyphicon glyphicon-user"></i>
                       </span>
-                            <input type="text" class="form-control" placeholder="Nama" name="nama" aria-describedby="sizing-addon2" disabled>
+                            <input type="text" class="form-control" placeholder="Tanggal Rapat" name="tgl-rapat" aria-describedby="sizing-addon2" disabled>
                         </div>
                         <div class="input-group form-group">
                       <span class="input-group-addon" id="sizing-addon2">
                         <i class="glyphicon glyphicon-user"></i>
                       </span>
-                            <input type="text" class="form-control" placeholder="Nama" name="nama" aria-describedby="sizing-addon2" disabled>
+                            <input type="text" class="form-control" placeholder="Jam" name="jam" aria-describedby="sizing-addon2" disabled>
                         </div>
                         <div class="input-group form-group">
                       <span class="input-group-addon" id="sizing-addon2">
                         <i class="glyphicon glyphicon-user"></i>
                       </span>
-                            <input type="text" class="form-control" placeholder="Nama" name="nama" aria-describedby="sizing-addon2" disabled>
+                            <input type="text" class="form-control" placeholder="Durasi" name="durasi" aria-describedby="sizing-addon2" disabled>
+                        </div>
+                        <div class="input-group form-group">
+                      <span class="input-group-addon" id="sizing-addon2">
+                        <i class="glyphicon glyphicon-user"></i>
+                      </span>
+                            <input type="text" class="form-control" placeholder="Tujuan" name="tujuan" aria-describedby="sizing-addon2" disabled>
                         </div>
                     <div class="input-group form-group">
                       <span class="input-group-addon" id="sizing-addon2">
@@ -112,6 +120,7 @@
                       <input type="button" class="form-control" name="excel" aria-describedby="sizing-addon2" id="" value="Upload Foto Absen" onclick="document.getElementById('imgabsen').click();" />
                         <input type="file" style="display:none;" onchange="previewImage1();" id="imgabsen" name="image-absen"/>
                     </div>
+
                     <div class="input-group form-group">
                         <span class="input-group-addon" id="sizing-addon2" >
                             <p>Foto Absen :</p>
