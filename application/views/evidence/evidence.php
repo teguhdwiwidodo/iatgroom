@@ -90,7 +90,7 @@
                         <i class="glyphicon glyphicon-picture"></i>
                       </span>
                       <input type="button" class="form-control" name="excel" aria-describedby="sizing-addon2" id="" value="Upload Foto Rapat" onclick="document.getElementById('imgrapat').click();" />
-                        <input type="file" style="display:none;" onchange="previewImage();" id="imgrapat" name="image-rapat"/>
+                        <input type="file" accept="image/*" style="display:none;" onchange="previewImage();" id="imgrapat" name="image-rapat"/>
                     </div>
                     <div class="input-group form-group">
                         <span class="input-group-addon" style="text-align: left;">
@@ -115,7 +115,7 @@
                         <i class="glyphicon glyphicon-picture"></i>
                       </span>
                       <input type="button" class="form-control" name="excel" aria-describedby="sizing-addon2" id="" value="Upload Foto Absen" onclick="document.getElementById('imgabsen').click();" />
-                        <input type="file" style="display:none;" onchange="previewImage1();" id="imgabsen" name="image-absen"/>
+                        <input type="file" accept="image/*" style="display:none;" onchange="previewImage1();" id="imgabsen" name="image-absen"/>
                     </div>
 
                     <div class="input-group form-group">
