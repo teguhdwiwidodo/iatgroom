@@ -1,0 +1,13 @@
+ #calendar {
+    max-width: 90%;
+    margin-left: 5%;
+    margin-bottom: 2.5%;
+  }
+  .fc-resource-area td {
+    cursor: pointer;
+  }
+
+ .fc-content {
+ 	height: 2rem;
+
+ }
