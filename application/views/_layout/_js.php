@@ -8,13 +8,7 @@
 <!-- AdminLTE App -->
 <script src="<?php echo base_url(); ?>assets/dist/js/app.min.js"></script>
 
-<!-- Full Calender -->
-<link rel='stylesheet' href='<?php echo base_url(); ?>assets/plugins/fullcalendar/fullcalendar.css' />
-<script src='<?php echo base_url(); ?>assets/plugins/fullcalendar/lib/jquery.min.js'></script>
-<script src='<?php echo base_url(); ?>assets/plugins/fullcalendar/lib/moment.min.js'></script>
-<script src='<?php echo base_url(); ?>assets/plugins/fullcalendar/fullcalendar.js'></script>
-<link rel='stylesheet' href='<?php echo base_url(); ?>assets/plugins/fullcalendar-scheduler/dist/scheduler.min.css' />
-<script src='<?php echo base_url(); ?>assets/plugins/fullcalendar-scheduler/dist/scheduler.min.js'></script>
+
 
 <!-- My Ajax -->
 <?php include './assets/js/ajax.php'; ?>
